@@ -5,6 +5,11 @@
 ### What I Learned;
 1. Responsive design, media queries is not always the answer;
 2. Using figma to create simple svg shapes;
+3. Landmarks
+4. Zooming and Scaling should not be disabled; (https://dequeuniversity.com/rules/axe/4.3/meta-viewport?application=axeAPI)
+5. page must have one landmark; (https://dequeuniversity.com/rules/axe/4.3/landmark-one-main?application=axeAPI);
+6. page must contain a level 1 heading; (https://dequeuniversity.com/rules/axe/4.3/page-has-heading-one?application=axeAPI)
+7. All page content must be contained by landmarks; (https://dequeuniversity.com/rules/axe/4.3/region?application=axeAPI)
 
 ### Tools Used: 
 1. pure HTML/CSS;
