@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport">
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -31,8 +31,6 @@
     h3 {
       text-align: center;
     }
-
-
 
     img {
       margin-top: 10px;
@@ -145,7 +143,7 @@
   </style>
 </head>
 
-<body>
+<body role="main">
   <svg id="circles" width="23" height="90" viewBox="0 0 23 90" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g>
       <circle cx="5" cy="5" r="5" fill="#71BBCF" />
@@ -185,8 +183,8 @@
 
   <div class="main_container">
     <div class="second_container">
-      <div class="qr_box">
-        <img class="qr" src="./images/image-qr-code.png">
+      <div class="qr_box" role="contentinfo">
+        <img alt="QR code picture" class="qr" src="./images/image-qr-code.png">
         <div class="text_box">
           <p class="top_text"> Improve your front-end skills by building projects</p>
           <p class="under_text"> Scan the QR code to visit Frontend Mentor and take your coding skills to the next
