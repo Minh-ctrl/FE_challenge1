@@ -6,3 +6,5 @@
 1. Responsive design, media queries is not always the answer;
 2. Using figma to create simple svg shapes;
 
+### Tools Used: 
+1. pure HTML/CSS;
