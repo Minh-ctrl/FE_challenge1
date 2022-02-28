@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -12,6 +12,8 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,700;0,900;1,600&display=swap');
+
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
@@ -68,12 +70,12 @@
 
     .qr_box {
       background-color: #ffffff;
-      height: 50%;
-      width: 20%;
+      height: fit-content;
+      width: fit-content;
+      max-height: 520px;
+      max-width: 150px;
       border-radius: 20px;
       box-shadow: 10px 10px 10px -4px #d7dee7;
-      word-wrap: break-word;
-
     }
 
     .text_box {
@@ -115,8 +117,8 @@
     }
 
     .qr {
-      width: 150px;
-      height: 150px;
+      max-width: 140px;
+      max-height: 140px;
     }
 
     p {
@@ -124,27 +126,21 @@
 
     }
 
-    .under_text {
-      font-size: x-small;
-      opacity: 0.5;
-      white-space: pre-line;
+    .top_text {
+      margin: 0 auto;
+      font-weight: 800;
+      font-size: 0.6rem;
+      max-width: 85%;
+      font-family: 'Source Sans Pro', sans-serif;
     }
 
-    @media only screen and (max-width: 1024px) {
-      .qr_box {
-        height: 65%;
-        width: 55%;
-      }
+    .under_text {
+      padding-top: 10%;
+      font-size: 0.4rem;
+      opacity: 0.5;
+      max-width: 70%;
+      margin: 0 auto;
 
-      .under_text {
-        font-size: xx-small;
-        opacity: 0.5;
-      }
-
-      .qr {
-        max-width: 100px;
-        max-height: 100px;
-      }
     }
   </style>
 </head>
